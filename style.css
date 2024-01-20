@@ -1,0 +1,64 @@
+body{
+    background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.name{
+    color:  #1f2e2e;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: sans-serif
+}
+.image{
+    border-radius: 50%;
+    width: 100px;
+    display: block;
+    margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.description{
+    color: #1f2e2e;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.buttons{
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+    height: 30px;
+}
+.btn{
+    margin-top: 30px;
+    width: 350px;
+    height: 40px;
+    border-radius: 15px;
+    color:black;
+    background-color: white;
+    border-color: white;
+    
+}
+.fa-linkedin{
+    float: inline-start;
+    margin-top: 5px;
+}
+.fa-github{
+    float: left;
+    margin-top: 5px;
+}
+.fa-youtube{
+    float: left;
+    margin-top: 5px;
+}
+.btn:hover{
+    transform: scale(1.05,1.05);
+    color: black;
+    background-color: white;
+    border-color: white;
+    transition: all .05s ease-in-out;
+    
+}
